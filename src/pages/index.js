@@ -1,13 +1,15 @@
 import * as React from 'react'  //importing react
 import Layout from '../components/layout'
 import {Link} from 'gatsby'
+import bash from '../images/bash.png'
 
 //Defining component
 const IndexPage = () => {
   return (
     
       <Layout pageTitle="CLI Portfolio">
-      <h2>Welcome to a random Bash User Portfolio</h2>
+      <h2>Welcome to a random <img src={bash} alt="bash image"/>
+Bash User Portfolio</h2>
       <Link to="/firstpage">Want to see how my first gatsby page looked like</Link>
       </Layout>
       )
